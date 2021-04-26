@@ -1,2 +1,2 @@
 let mongoose = require('mongoose');
-let 
+let dbManager = require ('./dbManager');
