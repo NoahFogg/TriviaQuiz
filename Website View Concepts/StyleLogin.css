@@ -1,0 +1,14 @@
+body{
+    color: aquamarine;
+
+}
+
+h1{
+    align-self: center;
+    position: absolute;
+    margin:auto;
+    width:auto;
+    border: 0px;
+    padding: 10px;;
+
+}
