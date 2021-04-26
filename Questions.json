@@ -1,0 +1,57 @@
+{
+    "Questions": {
+
+        "Question1": {
+            "Question": "What is the main character's name?",
+            "Options": [
+                "King Authur",
+                "The Black Knight",
+                "Galahad"
+            ],
+            "Answer": "King Authur"
+        },
+
+        "Question2": {
+            "Question":"What does the French Taunter launch towards the Knights of The Round Table?",
+            "Options": [
+                "Animals",
+                "Sticks",
+                "The Holy Grail"
+            ],
+            "Answer": "Animals"
+        },
+
+        "Question3": {
+            "Question": "What did the Knights of The Round Table use to defeat the Rabbit of Caerbannog?",
+            "Options": [
+                "Holy Hand Grenade",
+                "The Holy Grail",
+                "King Authur's Mighty Sword"
+            ],
+            "Answer": "Holy Hand Grenade"
+        },
+
+        "Question 4": {
+            "Question": "How can you a witch is a witch?",
+            "Options": [
+                "They have a terrible nose",
+                "They have green skin",
+                "They weigh as much as a duck"
+            ],
+            "Answer": "They weigh as much as a duck"
+        },
+
+        "Question 5": {
+            "Question": "Who was the first to join King Aurthur's knights?",
+            "Options": [
+                "The wise Sir Bedevere",
+                "The Knights who say Ni!",
+                "Sir Galahad the Pure"
+
+            ],
+            "Answer": "The wise Sir Bedevere"
+        }
+
+
+    }
+}
