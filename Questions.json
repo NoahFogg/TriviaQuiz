@@ -50,7 +50,21 @@
 
             ],
             "Answer": "The wise Sir Bedevere"
+        },
+
+        "Question 6": {
+            "Question": "What word cannot be said by the Knights who say Ni?",
+            "Options": [
+                "It",
+                "King Arthur ",
+                "Sir Galahad"
+
+            ],
+            "Answer": "The wise Sir Bedevere"
+
         }
+
+
 
 
     }
