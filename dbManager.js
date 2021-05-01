@@ -1,27 +1,8 @@
-/*Jake Levy
-
-Code adapted from : https://branche.online/mongodb-with-promises/
-
-You can use this as a starting point for your own database manager class, in
-your semester projects.
-
-Its a bad habit to open and close a connection EVERY time you want to do 
-something.Its better to "pool" connections (in other words maintain a standard
-group size) and cycle through what is available.  In this scenario, our pool
-size is only one. This is essentially a "singleton" design pattern.
-
-While this simplifies a lot of things (only one connection to manage), it can
-create a bottleneck because all of our data is going down the same pipeline.
-Data intensive applications might have several connections managed by an
-object (like in our chat lab) and some meta data.
-
-dbName is a string that names the DB you want to connect to.  You can opt to
-modify this file to hardcode the DB name if you prefer.
-
-*/
+//Code adapted from : https://branche.online/mongodb-with-promises/
 const MongoClient = require('mongodb').MongoClient;
 var getID = require('mongodb').ObjectID();
-var url = "mongodb://127.0.0.1:27017/";
+var url = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
+
 let database = {};
 //https://stackoverflow.com/questions/61277898/useunifiedtopology-true-pass-deprecated
 let mongoClient = MongoClient(url,{ useUnifiedTopology: true });

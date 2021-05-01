@@ -1,0 +1,1 @@
+mongodb://150.250.97.133:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false
