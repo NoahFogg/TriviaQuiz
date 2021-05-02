@@ -10,10 +10,11 @@ router.get("/", (req, res) => {
     })
 })
 
-router.post("/", (res, req) => {
-    if (req.body._id=='Test') {
-        insertRecord(req, res)
-    } else {
+router.post('/', (req, res) => {
+    if (req.body._id== '') {
+        insertRecord(res, req)
+    }
+    else{
         updateRecord(req, res)
     }
 })
