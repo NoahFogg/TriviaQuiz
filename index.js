@@ -15,10 +15,35 @@ app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send(
+    /*res.send(
         `<h2>Welcome to Student Database</h2>
         <h3>Click here to get started <b>
         <a href = "/student/list">Database</a></b></h3>`
+    )*/
+
+
+    res.send(
+        `<h2> Welcome to Monty Python Quiz Login </h2>
+        <br>
+        <h3>Sign in to Get Started</h3>
+        <div class ="form-group">
+        <label>User Name</label>
+        <input type = "text" class = "form-control" name = "Username" placeHolder = "Username" id = "{{student.fullName}}" 
+        </div>
+        <br>
+
+        <div class ="form-group">
+        <label>Password</label>
+        <input type = "text" class = "form-control" name = "Password" placeHolder = "Password" id = "{{student.fullName}}" 
+        </div>
+        <br>
+        <input type = "radio" name = "NewUser?" id = ""{NewUser}>
+        <Label>  New User?</Label>
+        <br>
+
+        <a href = "./WebViewConRef/Quiz">  <button>Submit</button> </ahref>
+        `
+
     )
 });
 
