@@ -2,19 +2,18 @@ let mongoose = require('mongoose');
 let dbManager = require ('./dbManager');
 
 var quizSchema = new mongoose.Schema({
-    fullName: {
+    Username: {
         type: String,
         required: 'Field is required'
     },
-    email: {
+    Password: {
         type: String,
         required: 'This is required too.'
     },
-    mobile: {
-        type: Number,
-        required: 'This is also required'
+    Points: {
+        type: Number
     }
 
 })
 
-mongoose.model('Student', studentSchema);
+mongoose.model('User', userSchema);

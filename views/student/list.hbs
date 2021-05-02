@@ -3,24 +3,15 @@ this displays list of students as a <table></table>
 <table class = "table">
     <thead>
         <tr>
-            <th>Full Name</th>
-            <th>Email</th>
-            <th>Mobile</th>
-            <th>City</th>
+            <th>Username</th>
+            <th>Points</th>
         </tr>
     </thead>
     <tbody>
         {{#each list}}
         <tr>
-            <td>{{this.fullName}}</td>
-            <td>{{this.email}}</td>
-            <td>{{this.Mobile}}</td>
-            <td>{{this.city}}</td>
-            <td>
-                <a class="btn" href = "/student/{{this.id}}">Edit</a>
-                <a class="btn" href = "/student/delete/{{this.id}}"
-                onclick="return confirm('You sure?');">Delete</a>
-            </td>
+            <td>{{this.Username}}</td>
+            <td>{{this.Points}}</td>
         </tr>
         {{/each}}
     </tbody>
