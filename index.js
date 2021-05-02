@@ -32,7 +32,9 @@ app.get('/', (req, res) => {
         <br>
         <Label>New User</Label>
         <input type ="radio" id="NewUser">
+        <br>
         <Button>Login<Button>
+        
         `
         
     )
