@@ -13,4 +13,4 @@ err => {
     }
 })
 
-require("./student.model")
+require("./studentmodel")

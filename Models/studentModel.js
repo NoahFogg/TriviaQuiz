@@ -16,4 +16,4 @@ var studentSchema = new mongoose.Schema({
 
 })
 
-mongoose.model('Student', studentSchgema);
+mongoose.model('Student', studentSchema);
