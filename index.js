@@ -1,18 +1,23 @@
 require('./models/db')
 
+// ALL YOUR DEPENDENCIES
 const express = require('express')
 const path = require('path')
 const handlebars = require('handlebars')
 const exphbs = require('express-handlebars')
 const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
-const bodyparser = require('body-parser')
+
+
 
 const studentRoute = require('./Routes/studentRoute')
+
 
 var app = express();
 
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
+
+//This is your landing Page
 
 app.get('/', (req, res) => {
     /*res.send(
@@ -34,7 +39,7 @@ app.get('/', (req, res) => {
         <input type ="radio" id="NewUser">
         <br>
         <Button>Login<Button>
-        
+
         `
         
     )
