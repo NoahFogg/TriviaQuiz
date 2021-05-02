@@ -31,7 +31,7 @@
             "Answer": "Holy Hand Grenade"
         },
 
-        "Question 4": {
+        "Question4": {
             "Question": "How can you a witch is a witch?",
             "Options": [
                 "They have a terrible nose",
@@ -41,7 +41,7 @@
             "Answer": "They weigh as much as a duck"
         },
 
-        "Question 5": {
+        "Question5": {
             "Question": "Who was the first to join King Aurthur's knights?",
             "Options": [
                 "The wise Sir Bedevere",
@@ -52,7 +52,7 @@
             "Answer": "The wise Sir Bedevere"
         },
 
-        "Question 6": {
+        "Question6": {
             "Question": "What word cannot be said by the Knights who say Ni?",
             "Options": [
                 "It",
@@ -62,10 +62,58 @@
             ],
             "Answer": "It"
 
-        }
+        },
+
+        "Question7": {
+            "Question": "Why did King Arthur leave Camelot?",
+            "Options": [
+                "He was kicked out",
+                "Camelot is a silly place",
+                "Everyone's horse suddenly died"
+
+            ],
+            "Answer": "Camelot is a silly place"
+
+        },
+        
+        "Question8": {
+            "Question": "What is Lancelot's favorite color?",
+            "Options": [
+                "Blue",
+                "Red",
+                "Black"
+
+            ],
+            "Answer": "Blue"
 
 
+    },
+
+         "Question9": {
+            "Question": "How does the Black Knight respond to getting his arms cut off?",
+            "Options": [
+                "You've unhanded me!",
+                "My stance does not falter!",
+                "Tis but a scratch!"
+
+            ],
+            "Answer": "Tis but a scratch!"
 
 
-    }
+    },
+
+        "Question10": {
+            "Question": "Why does Sir Galahad miss out on a good time at Castle Anthrax?",
+            "Options": [
+                "The girls inside are evil",
+                "He finds the grail",
+                "He is rescued by the Knights"
+
+            ],
+            "Answer": "He is rescued by the Knights"
+
+
+}
+
+}
 }
