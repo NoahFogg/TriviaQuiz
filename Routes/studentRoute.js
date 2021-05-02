@@ -35,7 +35,17 @@ function insertRecord(req, res) {
 }
 
 function updateRecord(req, res) {
-    Student.findOneAndUpdate({_id: req.body._id, {new: true}, (err, doc) => {
-        
-    }})
+    Student.findOneAndUpdate(
+        {_id: req.body._id }, 
+        req.body,
+        {new: true}, 
+        (err, doc) => {
+            if(!err) {
+                res.redirect("student/list");
+            }
+            else {
+                console.log("There is a problem: " + err);
+            }
+        }
+    );
 }
