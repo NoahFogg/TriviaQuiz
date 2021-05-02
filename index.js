@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
         <input type = "text" id= "Password">
         <br>
         <Label>New User</Label>
-        <input type ="radio" id="NewUser">
+        <input type ="checkbox" id="NewUser">
         <br>
         <Button>Login<Button>
 
