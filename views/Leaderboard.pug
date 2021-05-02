@@ -1,0 +1,9 @@
+extends layout
+block content 
+
+h3 Top Scores
+    #activities
+      each user in list
+        #activity
+          p #{user.userName}: #{user.score} points
+          
