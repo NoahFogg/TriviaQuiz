@@ -38,12 +38,13 @@ app.get('/', (req, res) => {
         <Label>New User</Label>
         <input type ="checkbox" id="NewUser">
         <br>
-        <Button>Login<Button>
-
+        <Button>Login</Button>
         `
-        
     )
 });
+
+var obj = JSON.parse('{ "Username":"John", "password":"Password123"}');
+
 
 app.set('views', path.join(__dirname, "/views/"))
 
@@ -60,6 +61,7 @@ app.set("view engine", "hbs");
 
 app.listen(3000, () => {
 console.log("Server started at port 3000");
+console.log(obj.Username);
 });
 
 app.use("/student", studentRoute);
