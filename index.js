@@ -16,9 +16,23 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
     res.send(
-        `<h2>Welcome to Student Database</h2>
+        `<h2>Welcome to Student Database!!</h2>
         <h3>Click here to get started <b>
         <a href = "/student/list">Database</a></b></h3>`
+    )
+
+    res.send(
+        `<h2>Welcome to the Monty Python Quiz!<h2>
+        <h3>Get started and login below</h3>
+        <Label>Username</Label>
+        <input type = "text" id = "Username">
+        <br>
+        <Label>Password</Label>
+        <input type = "text" id= "Password>
+        <br>
+        <Button>Login<Button>
+        `
+        
     )
 });
 
