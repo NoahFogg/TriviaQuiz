@@ -6,7 +6,7 @@ const fs = require('fs')
 const mongoose = require('mongoose')
 const mongodb = require('mongodb')
 const pug = require('pug')
-const Users = require('./.vs/Users.json')
+const Users = require('./Users.json')
 
 
 var app = express()
